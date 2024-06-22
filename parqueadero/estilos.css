@@ -1,0 +1,23 @@
+.azul{
+    background-color: black;
+}
+.gradient {
+    /* fallback for old browsers */
+    background: #FCF805;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #929,  #FCF805);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, black,  #FCF805);
+}
+    
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+    .gradient {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
